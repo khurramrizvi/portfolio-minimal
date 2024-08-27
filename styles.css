@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Playwrite+CU:wght@100..400&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-moz-selection {
+    /* Code for Firefox */
+    color: black;
+    background: lightsalmon;
+}
+
+::selection {
+    color: black;
+    background: lightsalmon;
+}
+
+body {
+    font-family: Outfit;
+    letter-spacing: 0.25px;
+    background-color: #F9F6EE;
+    /*bone white*/
+    scroll-behavior: smooth;   
+}
+
+.gradient {
+    background-image: linear-gradient(to right, #e07a39, #ec594a, #ed3265, #e00089, #bd12b0, #a030c3, #7842d3, #3750de, #2758dc, #1860d9, #0e66d5, #116cd0);
+    width: 100%;
+    height: 5px;
+    /* animation: slide 3s ease-in-out infinite alternate; */
+}
+
+.main {
+    padding: 48px;
+    margin-left: 4vw;
+    margin-right: 4vw;
+}
+
+.navbar {
+    width: 100%;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.navbar li {
+    padding-right: 20px;
+
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.navbar a:visited {
+    text-decoration: none;
+    color: #000;
+}
+
+.logo {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.35em;
+    font-weight: 500;
+}
+
+.logo a:visited {
+    color: #000;
+}
+
+.space-start {
+    margin-top: 24px;
+    height: 20px;
+}
+
+.intro {
+    /* width: 45%; */
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 24px;
+    max-width: 600px;
+}
+
+
+p a {
+    text-decoration: underline;
+    color: #000;
+}
+
+.paragraph {
+    margin-bottom: 20px;
+    max-width: 800px;
+    /* font-weight: 400; */
+}
+
+#project {
+    font-size: 20px;
+    font-weight: 300;
+    color: gray;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.divider {
+    width: 100%;
+    /* max-width: 80%; */
+    background-color: lightgray;
+    height: 1px;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.icon {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: #000;
+    display: inline-block;
+    margin-right: 24px;
+    padding-top: 10px;
+    text-align: center;
+    align-self: center;
+    color: white;
+}
+
+.card {
+    display: flex;
+    margin-top: 20px;
+    cursor: pointer;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+}
+
+.content {
+    font-weight: 400;
+    margin-bottom: 8px;
+    color: #000;
+}
+
+.content-subtitle {
+    color: gray;
+    font-weight: 300;
+}
+
+.elsewhere {
+    color: gray;
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.link {
+    justify-content: space-around;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.image {
+    color: #000;
+    position: absolute;
+    /* display: inline-block; */
+
+}
+
+.image img {
+    width: 40px;
+    height: 40px;
+    margin-top: -10px;
+}
+
+.handle {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 60px;
+    /* max-width: 80%; */
+
+}
+
+.handle-name {
+    font-size: 16px;
+    font-weight: 300;
+    color: #565;
+    text-decoration: none
+}
+
+.handle img {
+    color: lightgray;
+}
+
+.card-link{
+    text-decoration: none;
+}
