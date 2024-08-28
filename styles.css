@@ -25,7 +25,7 @@ body {
     letter-spacing: 0.25px;
     background-color: #F9F6EE;
     /*bone white*/
-    scroll-behavior: smooth;   
+    scroll-behavior: smooth;
 }
 
 .gradient {
@@ -37,8 +37,8 @@ body {
 
 .main {
     padding: 48px;
-    margin-left: 3vw;
-    margin-right: 3vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
 }
 
 .navbar {
@@ -61,10 +61,6 @@ body {
 
 .navbar a {
     text-decoration: none;
-}
-
-.navbar a:visited {
-    text-decoration: none;
     color: #000;
 }
 
@@ -75,10 +71,6 @@ body {
     font-weight: 500;
     margin-right: 30px;
     margin-top: -4px;
-}
-
-.logo a:visited {
-    color: #000;
 }
 
 .space-start {
@@ -126,16 +118,17 @@ p a {
 
 .icon {
     border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    background-color: #000;
-    display: contents;
+    min-width: 40px;
+    min-height: 40px;
+    background-color: #000000d6;
+    /* display: contents; */
     margin-right: 24px;
     padding-top: 10px;
     text-align: center;
     align-self: center;
     color: white;
-    visibility: hidden;
+    
+    /* visibility: hidden; */
 }
 
 .card {
